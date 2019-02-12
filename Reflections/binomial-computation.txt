@@ -4,6 +4,6 @@
       3. 1D array uses k*sizeof(data type) memory.
       
    B. If the space complexity is not an issue:
-      1. Recursive program has to refer to stack memory in every iteration.
-      2. Dynamic program maintains a 2D array which refers to the stored results in the previous iteration.
-      3. If the function does not demand all the co-efficients to return, 1D array is preferred. 
+      1. Recursive program has to refer to stack memory in every iteration(Computational time is high).
+      2. Dynamic program maintains a 2D array which refers to the stored results in the previous iteration(Computational time is low).
+      3. If the function does not demand all the co-efficients to return, 1D array is preferred(Computational time is comparitively                lesser). 
