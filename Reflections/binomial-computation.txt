@@ -1,1 +1,9 @@
-
+   A.For computing the combination of a large number say C(n,k) in this case :
+      1. Recursive program uses pow(2,n)*k*sizeof(data type) memory.
+      2. 2D array uses n*k*sizeof(data type) memory. 
+      3. 1D array uses k*sizeof(data type) memory.
+      
+   B. If the space complexity is not an issue:
+      1. Recursive program has to refer to stack memory in every iteration.
+      2. Dynamic program maintains a 2D array which refers to the stored results in the previous iteration.
+      3. If the function does not demand all the co-efficients to return, 1D array is preferred. 
